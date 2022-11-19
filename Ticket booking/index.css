@@ -1,8 +1,9 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
-    background-color: rgb(234, 234, 234);
+    background-color: white;
     color: rgb(0, 0, 0);
+    font-size: 20px !important;
 }
 
 button {
@@ -47,9 +48,13 @@ button:active {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    margin: 50px;
+    margin: 150px;   
 }
 
+a {
+    all: unset;
+    cursor: pointer;
+}
 
 .selectclass {
     display: flex;
@@ -60,6 +65,7 @@ button:active {
 .ticket {
     display: flex;
     justify-content: center;
+    margin-top: 50px;
 }
 
 .book-ticket {
